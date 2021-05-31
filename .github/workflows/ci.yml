@@ -20,5 +20,5 @@ jobs:
           git config --local user.name "nbatopstar"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "day day up"
+          git commit --allow-empty -m "good good study day day up"
           git push
